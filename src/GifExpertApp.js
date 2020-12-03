@@ -6,10 +6,6 @@ const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['Dragon Ball']);
 
-    // const handleAdd = () => {
-    //     setCategories([...categories, 'Cowboy Bebop']);
-    // }
-
     return(
 
         <div>
