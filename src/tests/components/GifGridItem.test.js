@@ -8,7 +8,7 @@ describe('Pruebas en <GifGridItem />', () => {
     const url = 'https://localhost/something.jpg';
     const wrapper = shallow(<GifGridItem title={title} url={url} />);
 
-    test('Debe mostrat el componente correctamente', () => {
+    test('Debe mostrar el componente correctamente', () => {
 
         expect(wrapper).toMatchSnapshot();
 
